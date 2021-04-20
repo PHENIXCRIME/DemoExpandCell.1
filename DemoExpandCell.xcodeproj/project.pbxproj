@@ -14,6 +14,8 @@
 		669723E4262942D3001E5D38 /* DemoExpandCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 669723E2262942D3001E5D38 /* DemoExpandCell.xcdatamodeld */; };
 		669723E6262942D6001E5D38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669723E5262942D6001E5D38 /* Assets.xcassets */; };
 		669723E9262942D6001E5D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669723E7262942D6001E5D38 /* LaunchScreen.storyboard */; };
+		66B13A02262E9F030052360C /* ExpandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B13A00262E9F030052360C /* ExpandCell.swift */; };
+		66B13A03262E9F030052360C /* ExpandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B13A01262E9F030052360C /* ExpandCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		669723E5262942D6001E5D38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669723E8262942D6001E5D38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669723EA262942D6001E5D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B13A00262E9F030052360C /* ExpandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCell.swift; sourceTree = "<group>"; };
+		66B13A01262E9F030052360C /* ExpandCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				669723DB262942D3001E5D38 /* SceneDelegate.swift */,
 				669723DD262942D3001E5D38 /* ViewController.swift */,
 				669723DF262942D3001E5D38 /* Main.storyboard */,
+				66B13A00262E9F030052360C /* ExpandCell.swift */,
+				66B13A01262E9F030052360C /* ExpandCell.xib */,
 				669723E5262942D6001E5D38 /* Assets.xcassets */,
 				669723E7262942D6001E5D38 /* LaunchScreen.storyboard */,
 				669723EA262942D6001E5D38 /* Info.plist */,
@@ -130,6 +136,7 @@
 				669723E9262942D6001E5D38 /* LaunchScreen.storyboard in Resources */,
 				669723E6262942D6001E5D38 /* Assets.xcassets in Resources */,
 				669723E1262942D3001E5D38 /* Main.storyboard in Resources */,
+				66B13A03262E9F030052360C /* ExpandCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			files = (
 				669723E4262942D3001E5D38 /* DemoExpandCell.xcdatamodeld in Sources */,
 				669723DE262942D3001E5D38 /* ViewController.swift in Sources */,
+				66B13A02262E9F030052360C /* ExpandCell.swift in Sources */,
 				669723DA262942D3001E5D38 /* AppDelegate.swift in Sources */,
 				669723DC262942D3001E5D38 /* SceneDelegate.swift in Sources */,
 			);
